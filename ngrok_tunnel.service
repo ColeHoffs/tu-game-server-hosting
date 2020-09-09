@@ -1,0 +1,13 @@
+[Unit]
+Description=Ngrok Server
+ 
+[Install]
+WantedBy=multi-user.target
+ 
+[Service]
+ExecStart=/bin/bash /home/cole/ngrokScript/ngrok.sh
+Type=simple
+User=cole
+Group=cole
+WorkingDirectory=/home/cole/ngrokScript
+Restart=on-failure

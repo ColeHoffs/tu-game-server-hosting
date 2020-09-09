@@ -3,7 +3,7 @@
 # Shell script to update namecheap.com dynamic dns
 # for a domain to your external IP address
 
-HOSTNAME=YOUR-SUB-DOMAIN (ex: play)
+HOSTNAME=YOUR-SUB-DOMAIN (ex: play) (If using root domain - no subdomain - just use @)
 DOMAIN=YOUR-ROOT-DOMAIN (ex: tu-gaming.com)
 PASSWORD=YOUR_DNS_PASSWORD_FROM_NAMECHEAP
 

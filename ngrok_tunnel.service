@@ -5,9 +5,9 @@ Description=Ngrok Server
 WantedBy=multi-user.target
  
 [Service]
-ExecStart=/bin/bash /home/cole/ngrokScript/ngrok.sh
+ExecStart=/bin/bash /scripts/ngrok.sh
 Type=simple
-User=cole
-Group=cole
-WorkingDirectory=/home/cole/ngrokScript
+User=YOURUSER
+Group=YOURUSER
+WorkingDirectory=/scripts/
 Restart=on-failure

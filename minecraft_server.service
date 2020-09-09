@@ -1,0 +1,13 @@
+[Unit]
+Description=Minecraft Game Server
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+ExecStart=/bin/bash /opt/minecraft/server/start.sh
+Type=simple
+User=minecraft
+Group=minecraft
+WorkingDirectory=/opt/minecraft/server/
+Restart=on-failure
